@@ -12,6 +12,25 @@ img {
   font-weight: 900;
 }
 
+.title-container {
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container .card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 52px;
+  align-items: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
